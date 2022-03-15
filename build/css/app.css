@@ -175,3 +175,54 @@ a {
   height: 2.3rem;
   width: 2.3rem;
 }
+
+.main {
+  padding-top: 10rem;
+}
+
+.reasons .reasons-question {
+  color: #4D13D1;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.reasons .reasons-title {
+  font-size: 3.5rem;
+}
+
+.reasons-grid {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3.3333333333rem;
+}
+.reasons-grid .reason .reason__logo {
+  width: 4rem;
+  height: 4rem;
+}
+.reasons-grid .reason .reason__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+
+.g1 {
+  background-image: url("../icons/time.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.g2 {
+  background-image: url("../icons/code.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.g3 {
+  background-image: url("../icons/allSizes.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
