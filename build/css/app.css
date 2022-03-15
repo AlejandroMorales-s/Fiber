@@ -12,6 +12,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 h1, h2, h3, h4 {
   margin: 0;
 }
@@ -37,14 +41,56 @@ h4 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  color: #454545;
 }
 
 li {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  color: #454545;
 }
 
 a {
   text-decoration: none;
+  color: #454545;
+  font-size: 1.8rem;
+}
+
+.container {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.25rem 0;
+}
+.nav-container .logo {
+  font-weight: 700;
   font-size: 2rem;
+}
+.nav-container .nav-btns {
+  display: flex;
+  align-items: center;
+  column-gap: 2.5rem;
+}
+.nav-container .nav-btns .nav__btn {
+  color: #000000;
+}
+.nav-container .login-btns {
+  display: flex;
+  align-items: center;
+  column-gap: 2.5rem;
+}
+.nav-container .login-btns:first-of-type {
+  font-weight: 700;
+}
+.nav-container .login-btns .btn {
+  padding: 1.75rem 2rem;
+  background-color: #4D13D1;
+  color: #ffffff;
+  border-radius: 0.5rem;
 }
