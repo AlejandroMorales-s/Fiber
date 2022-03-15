@@ -93,6 +93,7 @@ a {
   background-color: #4D13D1;
   color: #ffffff;
   border-radius: 0.5rem;
+  font-weight: 700;
 }
 
 .header {
@@ -150,6 +151,7 @@ a {
   background-color: #4D13D1;
   color: #ffffff;
   border-radius: 0.5rem;
+  font-weight: 700;
 }
 .trial .examples-btn {
   color: #4D13D1;
@@ -225,4 +227,40 @@ a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.trial-card {
+  border-radius: 1rem;
+  margin: 10rem 0 10rem 0;
+  background-color: #4D13D1;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  align-items: center;
+  padding: 5rem 5rem 0 5rem;
+}
+.trial-card .trial-card__info {
+  padding-right: 2.5rem;
+}
+.trial-card .trial-card__info .trial-card__title {
+  color: #ffffff;
+  font-size: 3.5rem;
+}
+.trial-card .trial-card__info .trial-card__info {
+  color: #ffffff;
+  font-weight: 300;
+  margin: 1rem 0 3.25rem 0;
+}
+.trial-card .trial-card__info .btn {
+  padding: 1.75rem 2.5rem;
+  background-color: #ffffff;
+  color: #4D13D1;
+  border-radius: 0.5rem;
+  font-weight: 700;
+}
+.trial-card .trial-card__img {
+  width: 100%;
+  height: 100%;
+}
+.trial-card .trial-card__img .trial-card__image {
+  height: 100%;
 }
