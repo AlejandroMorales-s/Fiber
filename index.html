@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fiber</title>
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,6 +28,9 @@
                 <a href="#" class="login__btn">Sign In</a>
                 <a href="#" class="login__btn btn">Sign Up</a>
             </div>
+            <div class="hamburguer">
+                <img src="build/icons/Hamburger Menu.svg" alt="Menu">
+            </div>
         </div>
         <div class="hero container">
             <div class="hero-info">
@@ -42,7 +45,7 @@
                     <p>Rated 4.8/5 (243 reviews)</p>
                 </div>
                 <h2 class="hero-title">Create your portfolio in minutes.</h2>
-                <p>With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates.</p>
+                <p class="hero-text">With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates.</p>
                 <div class="trial">
                     <a href="#" class="trial-btn">Star Free Trial</a>
                     <a href="#" class="examples-btn">View Examples</a>
@@ -50,94 +53,96 @@
                 <div class="benefits">
                     <div class="benefit">
                         <div class="check"></div>
-                        <p>No Credit Card Required</p>
+                        <p class="benefit-text">No Credit Card Required</p>
                     </div>
                     <div class="benefit">
                         <div class="check"></div>
-                        <p>10 Free Templates</p>
+                        <p class="benefit-text">10 Free Templates</p>
                     </div>
                 </div>
             </div>
             <div class="hero-img">
-                <img class="hero__img" src="build/img/hero-Illustration.png" alt="Ilustracion">
+                <img loading="lazy" class="hero__img" src="build/img/hero-Illustration.png" alt="Ilustracion">
             </div>
         </div>
     </header>
-    <main class="container main">
-        <div class="reasons">
-            <p class="reasons-question">Why Fiber?</p>
-            <h3 class="reasons-title">A good portfolio means good employability.</h3>
-        </div>
-        <div class="reasons-grid">
-            <div class="reason">
-                <div class="reason__logo g1"></div>
-                <p class="reason__title">Build in minutes</p>
-                <p>With a selection of premade templates, you can build out a portfolio in less than 10 minutes.</p>
+    <main>
+        <div class="container main">
+            <div class="reasons">
+                <p class="reasons-question">Why Fiber?</p>
+                <h3 class="reasons-title">A good portfolio means good employability.</h3>
             </div>
-            <div class="reason">
-                <div class="reason__logo g2"></div>
-                <p class="reason__title">Add custom CSS</p>
-                <p>Customize your personal portfolio even more with the ability to add your own custom CSS styles.</p>
-            </div>
-            <div class="reason">
-                <div class="reason__logo g3"></div>
-                <p class="reason__title">Responsive</p>
-                <p>All Fiber templates are fully responsive to ensure the experience is seemless across all devices.</p>
-            </div>
-        </div>
-        <div class="trial-card">
-            <div class="trial-card__info">
-                <h3 class="trial-card__title">Diversify your portfolio.</h3>
-                <p class="trial-card__info">Create an even more impressive portfolio by creating case studies for your projects. Simply follow our step-by-step guide.</p>
-                <a href="#" class="btn">Start Free Trial</a>
-            </div>
-            <div class="trial-card__img">
-                <img class="trial-card__image" src="build/img/Page Image.png" alt="page">
-            </div>
-        </div>
-        <div class="reviews-container">
-                <div class="review-card">
-                    <div class="review-person">
-                        <div class="person">
-                            <img class="review-avatar" src="build/avatar/User Avatar.svg" alt="person">
-                            <div class="info-person">
-                                <p class="review-name">Sarah Andrews</p>
-                                <p class="review-money">$100k in revenue</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <p class="review-info">Setting up my portfolio with Fiber took no more than 10 minutes. Since then, my portfolio has attracted a lot of clients and made me more than $100k.</p>
-                    <a href="#" class="btn-review">View Sarah's Portfolio</a>
+            <div class="reasons-grid">
+                <div class="reason">
+                    <div class="reason__logo g1"></div>
+                    <p class="reason__title">Build in minutes</p>
+                    <p>With a selection of premade templates, you can build out a portfolio in less than 10 minutes.</p>
                 </div>
-                <div class="review-card">
-                    <div class="review-person">
-                        <div class="person">
-                            <img class="review-avatar" src="build/avatar/User Avatar 2.svg" alt="person">
-                            <div class="info-person">
-                                <p class="review-name">Mathew Higgins</p>
-                                <p class="review-money">$20k in revenue</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <p class="review-info">I have been getting A LOT of leads ever since I used Fiber's premade templates, now I just need to work on my case studies and I'll be ready to go!</p>
-                    <a href="#" class="btn-review">View Mathew's Portfolio</a>
+                <div class="reason">
+                    <div class="reason__logo g2"></div>
+                    <p class="reason__title">Add custom CSS</p>
+                    <p>Customize your personal portfolio even more with the ability to add your own custom CSS styles.</p>
                 </div>
-                <div class="review-card">
-                    <div class="review-person">
-                        <div class="person">
-                            <img class="review-avatar" src="build/avatar/User Avatar 32.svg" alt="person">
-                            <div class="info-person">
-                                <p class="review-name">Janice Dave</p>
-                                <p class="review-money">$30k in revenue</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <p class="review-info">I only just started freelancing this year and I have already made more than I ever made on my full-time job. The templates are so amazing.</p>
-                    <a href="#" class="btn-review">View Janice's Portfolio</a>
+                <div class="reason">
+                    <div class="reason__logo g3"></div>
+                    <p class="reason__title">Responsive</p>
+                    <p>All Fiber templates are fully responsive to ensure the experience is seemless across all devices.</p>
                 </div>
+            </div>
+            <div class="trial-card">
+                <div class="trial-card__info">
+                    <h3 class="trial-card__title">Diversify your portfolio.</h3>
+                    <p class="trial-card__info">Create an even more impressive portfolio by creating case studies for your projects. Simply follow our step-by-step guide.</p>
+                    <a href="#" class="btn">Start Free Trial</a>
+                </div>
+                <div class="trial-card__img">
+                    <img class="trial-card__image" src="build/img/Page Image.png" alt="page">
+                </div>
+            </div>
+            <div class="reviews-container">
+                    <div class="review-card">
+                        <div class="review-person">
+                            <div class="person">
+                                <img class="review-avatar" src="build/avatar/User Avatar.svg" alt="person">
+                                <div class="info-person">
+                                    <p class="review-name">Sarah Andrews</p>
+                                    <p class="review-money">$100k in revenue</p>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <p class="review-info">Setting up my portfolio with Fiber took no more than 10 minutes. Since then, my portfolio has attracted a lot of clients and made me more than $100k.</p>
+                        <a href="#" class="btn-review">View Sarah's Portfolio</a>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-person">
+                            <div class="person">
+                                <img class="review-avatar" src="build/avatar/User Avatar 2.svg" alt="person">
+                                <div class="info-person">
+                                    <p class="review-name">Mathew Higgins</p>
+                                    <p class="review-money">$20k in revenue</p>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <p class="review-info">I have been getting A LOT of leads ever since I used Fiber's premade templates, now I just need to work on my case studies and I'll be ready to go!</p>
+                        <a href="#" class="btn-review">View Mathew's Portfolio</a>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-person">
+                            <div class="person">
+                                <img class="review-avatar" src="build/avatar/User Avatar 32.svg" alt="person">
+                                <div class="info-person">
+                                    <p class="review-name">Janice Dave</p>
+                                    <p class="review-money">$30k in revenue</p>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <p class="review-info">I only just started freelancing this year and I have already made more than I ever made on my full-time job. The templates are so amazing.</p>
+                        <a href="#" class="btn-review">View Janice's Portfolio</a>
+                    </div>
+            </div>
         </div>
     </main>
     <footer class="footer">
