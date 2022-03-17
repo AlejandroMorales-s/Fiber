@@ -4,16 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fiber|Login</title>
-        <!--Fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,600;1,700&display=swap" rel="stylesheet">
-        <!--CSS Custom-->
-        <link rel="preload" href="build/css/app.css" as="style">
-        <link rel="stylesheet" href="build/css/app.css">
+    <title>Fiber | Login</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!--CSS Custom-->
+    <link rel="preload" href="build/css/app.css" as="style">
+    <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
-    
+    <div class="bg-container">
+        <div class="bg"></div>
+        <div class="bg azul"></div>
+    </div>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html">
+                <h1 class="logo">Fiber</h1>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="container login-grid">
+            <div class="formulario">
+                <h2 class="formulario-title">Create your Fiber account</h2>
+                <form class="form" action="">
+                    <ul>
+                        <li class="campo">
+                            <label class="label" for="name">Your Name</label>
+                            <input placeholder="John Doe" class="input" type="text" id="name" name="user_name">
+                        </li>
+                        <li class="campo">
+                            <label class="label" for="mail">E-mail</label>
+                            <input placeholder="john@example.com" class="input" type="email" id="mail" name="user_mail">
+                        </li>
+                        <li class="campo">
+                            <label class="label" for="msg">Password</label>
+                            <input placeholder="At least 8 characters" minlength="8" class="input" type="password" id="password" name="user_password">
+                        </li>
+                        <li class="campo checkbox">
+                            <label class="label label-checkbox" for="terms">By creating an account on Fiber, you agree to the <span class="terms-dec">Terms & Conditions.</span></label>
+                            <input class="square" id="terms" type="checkbox">
+                        </li>
+                    </ul>
+                    <button class="submit" type="submit">Create Fiber Account</button>
+                    <p class="signin">Already have an account? <a class="signin-text" href="#">Sign in</a></p>
+                </form>
+            </div>
+            <div class="photos">
+
+            </div>
+        </div>
+    </main>
 </body>
 </html>
